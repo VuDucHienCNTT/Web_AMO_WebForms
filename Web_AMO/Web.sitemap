@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Home" >
+    <siteMapNode url="Default.aspx" title="Trang chủ">
+    </siteMapNode>
+    <siteMapNode url="" title="	Giới thiệu">
+      <siteMapNode url="GioiThieuChung.aspx" title="Giới thiệu chung"></siteMapNode>
+      <siteMapNode url="CanBo.aspx" title="Sơ đồ tổ chức">
+        <siteMapNode url="DetailCB.aspx">
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="SiteMap.aspx" title="Sơ đồ trang">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="TaiLieu.aspx" title="Công văn - tài liệu">
+    </siteMapNode>
+    <siteMapNode url="LichLV.aspx" title="Lịch làm việc">
+      <siteMapNode url="DetailLichLV.aspx">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="TinTuc.aspx" title=" Tin tức - sự kiện">
+      <siteMapNode url="DetailTinTuc.aspx">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="Album.aspx" title=" Thư viện ảnh" >
+    </siteMapNode>
+    <siteMapNode url="LienHe.aspx" title="Liên hệ"/>
+    <siteMapNode url="BanDo.aspx" title="Bản đồ" />
+    <siteMapNode url="DangNhap.aspx" title="Đăng nhập" />
+    <siteMapNode url="DangKy.aspx" title="Đăng ký" />
+    <siteMapNode url="KQTimKiem.aspx" />
+    <siteMapNode url="TLTin.aspx" />
+  </siteMapNode>
+</siteMap>

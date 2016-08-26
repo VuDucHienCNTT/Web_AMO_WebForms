@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Web_AMO.Presentation.Admin.Admin" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<%@ Register Src="~/UCcontrol/LenDauTrang.ascx" TagPrefix="uc1" TagName="LenDauTrang" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Trang quản trị website Văn phòng</title>
+    <link href="../../CSS/Admin.css" rel="stylesheet" />
+    <script src="../JS/jquery-3.0.0.js"></script>
+    <script src="../JS/jquery-3.0.0.min.js"></script>
+    <script src="../JS/Scrollmenu_top.js"></script>
+    <script src="../JS/Menu_active.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="bodytrang">
+            <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></asp:ToolkitScriptManager>
+            <div id="banner">
+                <div style="float:right;margin-top:-3px; background:#58c2f1; padding-bottom:3px;">
+                    <asp:Label runat="server" Style="font-weight: bold;color:#ff0000; font-size: 12px; margin-left:10px;" ID="lblchaoban_admin"></asp:Label> |
+                    <asp:LinkButton runat="server" ID="btnDangxuat" title="Đăng xuất" Text="Đăng xuất" href="../Default.aspx" OnClientClick="return confirm('Bạn có muốn đăng xuất không?')" Height="22px" Width="70px" ForeColor="Blue" OnClick="btnDangxuat_Click" />
+                </div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="QLTaiKhoan.aspx" title="Tài khoản">Tài khoản</a></li>
+                    <li><a href="QLCanBo.aspx" title="Cán bộ">Cán bộ</a></li>
+                    <li><a href="QLTaiLieu.aspx" title="Công văn - Tài liệu">Công văn - tài liệu</a></li>
+                    <li><a href="QLLichLV.aspx" title="Lịch làm việc">Lịch làm việc</a></li>
+                    <li><a href="QLTinTuc.aspx" title="Tin tức - Sự kiện">Tin tức - sự kiện</a></li>
+                    <li><a href="QLThongBao.aspx" title="Thông báo">Thông báo</a></li>
+                    <li><a href="QLAlbumAnh.aspx" title="Album ảnh">Thư viện ảnh</a></li>
+                    <li><a href="QLTheLoaiTin.aspx" title="Thể loại tin">Thể loại tin</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+             <div id="footer" style="height: 150px">
+                Copyright&copy;2016 Văn phòng - Đài Khí tượng cao không
+                <br />
+                Trung tâm Khí tượng Thủy văn quốc gia<br />
+                Địa chỉ: số 23 Ngõ 62, Nguyễn Chí Thanh - Láng Thượng - Đống Đa - Hà Nội<br />
+                Email liên hệ: vanphongktck@amo.gov.vn<br />
+                Điện thoại: 043.8343.588 - 043.2595.250, Fax: (84-4) 38358902<br />
+                Chịu trách nhiệm: Ông Vũ Văn Sáng
+            </div>
+            <uc1:LenDauTrang runat="server" ID="LenDauTrang" />
+        </div>
+    </form>
+</body>
+</html>
+<noembed>

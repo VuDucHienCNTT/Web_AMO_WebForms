@@ -1,0 +1,60 @@
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\Web_AMO.dll.config
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\Web_AMO.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\Web_AMO.pdb
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\obj\Debug\Web_AMO.csprojResolveAssemblyReference.cache
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\obj\Debug\Web_AMO.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\obj\Debug\Web_AMO.pdb
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\AjaxControlToolkit.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\AjaxControlToolkit.pdb
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\ar\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\cs\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\de\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\es\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\fr\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\he\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\hi\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\it\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\ja\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\ko\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\nl\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\pt\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\ru\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\CKFinder.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\bin\CKFinder.pdb
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\Web_AMO\bin\Web_AMO.dll.config
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\Web_AMO\bin\Web_AMO.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\Web_AMO\bin\Web_AMO.pdb
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\Web_AMO\bin\CKFinder.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\Web_AMO\bin\CKFinder.pdb
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\Web_AMO\obj\Debug\Web_AMO.dll
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\Web_AMO\obj\Debug\Web_AMO.pdb
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\Web_AMO.dll.config
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\Web_AMO.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\Web_AMO.pdb
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\AjaxControlToolkit.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\CKFinder.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\AjaxControlToolkit.pdb
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\CKFinder.pdb
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\obj\Debug\Web_AMO.dll
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\obj\Debug\Web_AMO.pdb
+C:\Users\DELL-PC\Desktop\Web_AMO\Web_AMO\Web_AMO\obj\Debug\Web_AMO.csprojResolveAssemblyReference.cache
+E:\STYDY\VISUAL 2013\WEBFORM\Web_AMO\Web_AMO\Web_AMO\obj\Debug\Web_AMO.csprojResolveAssemblyReference.cache

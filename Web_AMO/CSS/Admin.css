@@ -1,0 +1,119 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+    font-family: Arial;
+    min-height: 850px;
+    background-image: url('../Image/background_Admin2.png');
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #BBBBBB;
+}
+
+#bodytrang {
+    background-color: white;
+}
+
+#banner {
+    width: 1000px;
+    height: 150px;
+    background-image: url('../Image/BannerAdmin.png');
+    margin: auto;
+}
+/*tiêu đề Trang QUản Trị Viên*/
+#lblquantrivien {
+    text-align: center;
+    height: 45px;
+    font-size: 32px;
+    color: red;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+/*hiển thị tên đăng nhập*/
+#lbltenadmin {
+    font-size: 14px;
+    color: blue;
+    margin-left: 5px;
+}
+
+/*thời gian thực*/
+#clock {
+    color: black;
+    margin-right: 10px;
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    line-height:30px;
+}
+
+#menu {
+    background: #2ba0db;
+    width: 1000px;
+    margin: auto;
+    z-index: 10;
+}
+
+    #menu ul {
+        font-size: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+        #menu ul li {
+            display: inline-block;
+            position: relative;
+            border-right: 1px solid #BBBBBB;
+        }
+
+            #menu ul li a {
+                color: black;
+                display: block;
+                font-size: 13px;
+                text-decoration: none;
+                padding: 1px 10px;
+                font-weight: bold;
+            }
+
+                #menu ul li a:hover {
+                    color: white;
+                }
+
+            #menu ul li:hover {
+                background: #126d9b;
+            }
+/*active menu*/
+.active {
+    background-color: #126d9b;
+}
+#menu .active a{
+    color: white;
+}
+/* */
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    line-height: 32px;
+}
+
+/*Phần nội dung của website*/
+#content {
+    min-height: 750px;
+}
+
+/* footer cuối trang*/
+#footer {
+    border-top:#126d9b 1px solid;
+    width: 100%;
+    line-height:1.5;
+    text-align: center;
+    font-weight:500;
+    padding-top:22px;
+    font-size: 14px;
+    background-color: #eef7f7;
+    font-family:'Segoe UI';
+}

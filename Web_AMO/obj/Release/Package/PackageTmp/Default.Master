@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="Web_AMO.Presentation.Default" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<%@ Register Src="~/UCcontrol/TinMoi.ascx" TagPrefix="uc1" TagName="TinMoi" %>
+<%@ Register Src="~/UCcontrol/WebLienKet.ascx" TagPrefix="uc1" TagName="WebLienKet" %>
+<%@ Register Src="~/UCcontrol/PictureLienKet.ascx" TagPrefix="uc1" TagName="PictureLienKet" %>
+<%@ Register Src="~/UCcontrol/LenDauTrang.ascx" TagPrefix="uc1" TagName="LenDauTrang" %>
+<%@ Register Src="~/UCcontrol/ThongKeTruyCap.ascx" TagPrefix="uc1" TagName="ThongKeTruyCap" %>
+<%@ Register Src="~/UCcontrol/TimKiem.ascx" TagPrefix="uc1" TagName="TimKiem" %>
+<%@ Register Src="~/UCcontrol/LichVanNien.ascx" TagPrefix="uc1" TagName="LichVanNien" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <%--<link rel="shortcut icon" href="/Favicon/favicon.ico" />--%>
+    <title>Văn phòng | Đài khí tượng cao không - Aero meteorological observatory</title>
+    <link href="../CSS/Default.css" rel="stylesheet" />
+    <script src="../JS/Thoigianthuc.js"></script>
+    <script src="JS/jquery-3.0.0.js"></script>
+    <script src="JS/jquery-3.0.0.min.js"></script>
+    <script src="JS/Menu_active.js"></script>
+    <script src="JS/Thongbao.js"></script>
+    <script src="JS/Scrollmenu_top.js"></script>
+    <script src="JS/Hieuungmenu_soxuong.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body onload="time()">
+    <form id="form1" runat="server">
+
+        <%--popup thông báo nội bộ--%>
+        <div id="to-popup">
+            <span id="btn-close" title="Đóng">X</span>
+            <div id="popup-content">
+                <span id="loading-title">
+                    <span style="font-size: 28px; padding-left: 40%; color: #06538b; font-family: 'Segoe UI'; font-weight: bold;">Thông Báo</span>
+                    <hr style="margin-top: 3px;" />
+                    <asp:Repeater runat="server" ID="rptThongBao">
+                        <ItemTemplate>
+                            <div style="clear: both"></div>
+                            <h2>
+                                <asp:Label ID="lblSTT" Text='<%# Container.ItemIndex + 1 %>' Style="font-size: 19px; color: #0094ff" runat="server"></asp:Label>.
+                            <a style="line-height: 1.6; color: #0094ff;"><%# Eval("TIEUDETB") %></a></h2>
+                            <p style="font-size: 13px; font-family: Tahoma"><%#"Ngày thông báo: " + DateTime.Parse(Eval("NGAYTB").ToString()).ToString("dd/MM/yyyy")%></p>
+                            <p style="margin-top: 10px; color: #191616; font-size: 14px;"><%#Eval("NOIDUNGTB") %></p>
+                            <div style="border-bottom: 1px dashed #ccc; padding: 5px;"></div>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            <div style="margin-top: 10px;">
+                                <asp:Label runat="server" Style="font-style: italic; font-size: 14px;" visible='<%# DataBinder.Eval(Container.Parent, "Items.Count").ToString() == "0" %>'>Hiện tại không có thông báo nào...
+                                </asp:Label>
+                            </div>
+                        </FooterTemplate>
+                    </asp:Repeater>
+                </span>
+            </div>
+        </div>
+        <div id="background-popup"></div>
+        <%--Kết thúc popup thông báo--%>
+
+        <div id="bodytrang">
+            <asp:ToolkitScriptManager runat="server"></asp:ToolkitScriptManager>
+            <div id="banner">
+                <div style="float: right; background: #469ddc; padding-left: 5px;">
+                    <asp:LinkButton ID="btnThongBao" title="Click để xem thông báo" class="btn-open-popup" runat="server" Style="float: right; margin-right: 5px; font-size: 14px; color: red; font-weight: bold">Thông báo</asp:LinkButton>
+                    <img src="Image/notification.png" style="margin-top: 6px; margin-right: 2px;" />
+                </div>
+            </div>
+            <div id="menu">
+                <div id="clock"></div>
+                <ul>
+                    <li style="margin-left: 6px;"><a href="../Default.aspx" title="Trang chủ">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu&nbsp;&nbsp;&nbsp;<span class="muiten">&#9660;</span></a>
+                        <ul>
+                            <li><a href="../GioiThieuChung.aspx" title="Giới thiệu chung">&diams;  Giới thiệu chung</a></li>
+                            <li><a href="../CanBo.aspx" title="Sơ đồ tổ chức">&diams;  Sơ đồ tổ chức</a></li>
+                            <li><a href="../SiteMap.aspx" title="Sơ đồ trang">&diams;  Sơ đồ trang</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../TaiLieu.aspx" title="Công văn - tài liệu">Công văn - Tài liệu</a></li>
+                    <li><a href="../LichLV.aspx" title="Lịch làm việc">Lịch làm việc</a></li>
+                    <li><a href="../TinTuc.aspx" title="Tin tức - sự kiện">Tin tức - Sự kiện</a></li>
+                    <li><a href="../Album.aspx" title="Thư viện ảnh">Thư viện ảnh</a></li>
+                    <li><a href="../LienHe.aspx" title="Liên hệ">Liên hệ</a></li>
+                </ul>
+            </div>
+
+            <div id="chung_welcome_login">
+                <%--login register--%>
+                <div id="login_register">
+                    <asp:LinkButton runat="server" ID="LinkbtnDangNhap" OnClick="LinkbtnDangNhap_Click" href="../DangNhap.aspx" Text="Đăng nhập"></asp:LinkButton>
+                    | <a href="../DangKy.aspx" title="Đăng ký">Đăng ký</a>
+                </div>
+
+                <%-- welcome to website --%>
+                <div id="welcome">
+                    <marquee width="735" onmousedown="this.stop()" onmouseup="this.start()" scrolldelay="10">Chào mừng bạn đến với Website Văn phòng - Đài Khí tượng cao không - Trung tâm Khí tượng Thủy văn quốc gia - Bộ Tài nguyên và Môi trường</marquee>
+                </div>
+            </div>
+            <hr />
+            <div id="idduongdan">
+                <%-- Chào bạn khi đăng nhập --%>
+                <div id="chaoban">
+                    <asp:Label runat="server" ID="lblchaoban"></asp:Label>
+                </div>
+                <%-- Đường dẫn sitemappath --%>
+                <div id="sitemappath">
+                    <asp:SiteMapPath ID="SiteMapPath" Style="font-size: 16px;" runat="server" PathSeparator=" &gt;&gt; " RenderCurrentNodeAsLink="True" EnableTheming="True">
+                        <CurrentNodeStyle ForeColor="#333333" Font-Bold="True" />
+                        <NodeStyle ForeColor="#FF3300" />
+                        <PathSeparatorStyle ForeColor="#333333" Font-Size="11px" />
+                        <RootNodeStyle ForeColor="#FF3300" />
+                    </asp:SiteMapPath>
+                </div>
+            </div>
+            <hr />
+
+
+
+            <div id="content">
+                <div class="left">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <div class="right">
+                    <uc1:TimKiem runat="server" ID="TimKiem" />
+                    <uc1:TinMoi runat="server" ID="TinMoi" />
+                    <uc1:WebLienKet runat="server" ID="WebLienKet" />
+                    <uc1:PictureLienKet runat="server" ID="PictureLienKet" />
+                    <uc1:LichVanNien runat="server" ID="LichVanNien" />
+                    <uc1:ThongKeTruyCap runat="server" ID="ThongKeTruyCap" />
+                </div>
+            </div>
+
+            <%--Menu cuối--%>
+            <div id="menucuoi">
+                <ul style="height: 28px">
+                    <li><a href="../Default.aspx" title="Trang chủ">Trang chủ</a></li>
+                    |
+                    <li><a href="../BanDo.aspx" title="Bản đồ">Bản đồ</a></li>
+                    |
+                    <li><a href="../LienHe.aspx" title="Liên hệ">Liên hệ</a></li>
+                    |
+                    <li><a href="#" title="Đầu trang">Đầu trang</a></li>
+                </ul>
+            </div>
+
+            <div id="footer" style="height: 150px">
+                Copyright&copy;2016 Văn phòng - Đài Khí tượng cao không
+                <br />
+                Trung tâm Khí tượng Thủy văn quốc gia<br />
+                Địa chỉ: số 23 Ngõ 62, Nguyễn Chí Thanh - Láng Thượng - Đống Đa - Hà Nội<br />
+                Email liên hệ: vanphongktck@amo.gov.vn<br />
+                Điện thoại: 043.8343.588 - 043.2595.250, Fax: (84-4) 38358902<br />
+                Chịu trách nhiệm: Ông Vũ Văn Sáng
+            </div>
+            <uc1:LenDauTrang runat="server" ID="LenDauTrang" />
+        </div>
+    </form>
+</body>
+</html>
+<noembed>
