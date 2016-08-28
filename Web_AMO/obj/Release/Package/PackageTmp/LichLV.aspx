@@ -71,7 +71,7 @@
         </ItemTemplate>
         <FooterTemplate>
             <div style="padding-left: 20px; padding-top: 10px">
-                <asp:Label runat="server" Style="font-size: 14px;" Visible='<%# DataBinder.Eval(Container.Parent, "Items.Count").ToString() == "0" %>'>Không có kết quả được tìm thấy...
+                <asp:Label runat="server" Style="font-size: 14px;" Visible='<%# DataBinder.Eval(Container.Parent, "Items.Count").ToString() == "0" %>'>Không có kết quả được tìm thấy
                 </asp:Label>
             </div>
         </FooterTemplate>

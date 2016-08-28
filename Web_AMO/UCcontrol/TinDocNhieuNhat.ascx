@@ -16,17 +16,16 @@
         font-weight: bold;
         line-height: 32px;
         background-image: url(Image/bg-title-h-left.png);
-        float:left;
+        float: left;
         width: 26%;
         color: black;
-
     }
 
     .rpttindocnhieu {
-        width: 710px;
+        width: 720px;
         float: left;
         margin-right: 4px;
-        margin-left: 25px;
+        margin-left: 15px;
         text-align: left;
     }
 
@@ -36,7 +35,7 @@
     }
 
         .classa a:hover {
-            color: #ff0000;
+            color:#2E2EFE;
         }
 </style>
 <div id="idtindocnhieu">
@@ -50,7 +49,7 @@
             <ItemTemplate>
                 <div class="classa">
                     <div style="clear: both"></div>
-                    <h4 style="color: #ff6a00; margin: 10px 0;">&diams;
+                    <h4 style="color: #09489f; margin: 10px 0;">&diams;
                 <a style="line-height: 1.1; font-size: 13px;" title="<%# Eval("TIEUDE") %>" href='DetailTinTuc.aspx?id=<%# Eval("IDTINTUC") %>'><%# Eval("TIEUDE") %> <span style="color: #808080"><%#"("+DateTime.Parse(Eval("NGAYDANG").ToString()).ToString("dd/MM/yyyy")+")" %></span>
                 </a>
                     </h4>

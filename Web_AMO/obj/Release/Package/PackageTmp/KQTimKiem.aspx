@@ -19,7 +19,7 @@
 
         .lblKQTimKiem {
             font-family: Tahoma;
-            margin-left: 10px;
+            margin-left: 20px;
             color: #414955;
             font-size: 15px;
         }
@@ -53,6 +53,7 @@
     <br />
     <br style="margin-bottom: 10px;" />
     <asp:Label ID="lblKQTimKiem" CssClass="lblKQTimKiem" runat="server"></asp:Label>
+    <hr />
     <div id="Kquatimkiem">
         <asp:Repeater runat="server" ID="rptTimKiemTinTuc">
             <ItemTemplate>
@@ -72,6 +73,12 @@
                 <div style="clear: both; margin-bottom: 5px;"></div>
                 <div style="border-bottom: 1px dashed #808080; margin-top: 5px;"></div>
             </ItemTemplate>
+            <FooterTemplate>
+                <div style="padding-left: 10px; padding-top: 10px">
+                    <asp:Label runat="server" Style="font-size: 14px;" Visible='<%# DataBinder.Eval(Container.Parent, "Items.Count").ToString() == "0" %>'>Không có kết quả được tìm thấy...
+                    </asp:Label>
+                </div>
+            </FooterTemplate>
         </asp:Repeater>
         <div style="height: 20px; text-align: center; margin-top: 20px; color: #09489f; font-size: 17px;">
             <cc1:CollectionPager ID="CollectionPager1" runat="server" BackText="&lt;&lt; Trước &amp;nbsp;" LabelText="" NextText="&amp;nbsp; Sau &gt;&gt;" SliderSize="5" PagingMode="QueryString" BackNextLocation="Split" PageNumbersDisplay="Numbers" ResultsLocation="None" BackNextDisplay="HyperLinks" PageSize="15" FirstText="" HideOnSinglePage="True" IgnoreQueryString="False" LastText="" PageNumbersSeparator="-" ResultsFormat="" ShowLabel="False" ShowPageNumbers="True" UseSlider="True">

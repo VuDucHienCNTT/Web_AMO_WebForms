@@ -6,9 +6,8 @@
 body {
     width: 1000px;
     margin: auto;
-    /*box-shadow: 0 6px 6px 6px #808080;*/ /*đổ bóng viền web*/
     font-family: Arial;
-    min-height: 670px;
+    min-height: 850px;
     background-image: url('../Image/Background.gif');
     border-left: 1px solid #BBBBBB;
     border-right: 1px solid #BBBBBB;
@@ -16,12 +15,10 @@ body {
 
 #bodytrang {
     background-color: white;
-    min-height: 850px;
 }
 
 #content {
-    max-width: 100%;
-    height: auto;
+    min-height: 1350px;
 }
 
 .left {

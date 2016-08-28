@@ -84,7 +84,7 @@
                 </ItemTemplate>
                 <FooterTemplate>
                     <div style="margin-top: 10px;">
-                        <asp:Label runat="server" Style="font-style: italic; font-size: 14px;" Visible='<%# DataBinder.Eval(Container.Parent, "Items.Count").ToString() == "0" %>'>Tin tức đang được cập nhật...
+                        <asp:Label runat="server" Style="font-size: 14px;" Visible='<%# DataBinder.Eval(Container.Parent, "Items.Count").ToString() == "0" %>'>Tin tức đang được cập nhật...
                         </asp:Label>
                     </div>
                 </FooterTemplate>

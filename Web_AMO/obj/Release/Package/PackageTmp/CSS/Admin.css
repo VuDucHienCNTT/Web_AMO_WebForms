@@ -8,14 +8,13 @@ body {
     margin: auto;
     font-family: Arial;
     min-height: 850px;
-    border-left: 1px solid #BBBBBB;
     background-image: url('../Image/background_Admin2.png');
+    border-left: 1px solid #BBBBBB;
     border-right: 1px solid #BBBBBB;
 }
 
 #bodytrang {
     background-color: white;
-    min-height: 850px;
 }
 
 #banner {
@@ -100,8 +99,6 @@ a {
     font-size: 13px;
     line-height: 32px;
 }
-
-
 
 /*Phần nội dung của website*/
 #content {

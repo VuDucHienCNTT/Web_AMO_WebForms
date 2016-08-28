@@ -19,7 +19,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2016 17:55:37</publishTime>
     </File>
     <File Include="Admin/ImageTinTuc/a52%281%29.JPG">
-      <publishTime>07/25/2016 18:37:57</publishTime>
+      <publishTime>08/27/2016 17:50:02</publishTime>
     </File>
     <File Include="Admin/ImageTinTuc/userfiles/images/a52%281%29.JPG">
       <publishTime>07/25/2016 18:07:38</publishTime>
@@ -127,7 +127,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/24/2013 23:52:03</publishTime>
     </File>
     <File Include="bin/Web_AMO.dll">
-      <publishTime>08/15/2016 01:17:23</publishTime>
+      <publishTime>08/27/2016 17:51:28</publishTime>
     </File>
     <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
       <publishTime>01/24/2013 23:52:03</publishTime>
@@ -3274,10 +3274,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/16/2016 23:11:53</publishTime>
     </File>
     <File Include="CSS/Admin.css">
-      <publishTime>08/15/2016 01:12:35</publishTime>
+      <publishTime>08/19/2016 21:34:00</publishTime>
     </File>
     <File Include="CSS/Default.css">
-      <publishTime>08/15/2016 01:09:52</publishTime>
+      <publishTime>08/19/2016 21:34:15</publishTime>
     </File>
     <File Include="DangKy.aspx">
       <publishTime>07/28/2016 18:57:04</publishTime>
@@ -3316,7 +3316,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/13/2016 01:15:51</publishTime>
     </File>
     <File Include="Default.Master">
-      <publishTime>08/12/2016 20:37:46</publishTime>
+      <publishTime>08/19/2016 21:26:12</publishTime>
     </File>
     <File Include="Default.Master.cs">
       <publishTime>07/28/2016 21:17:26</publishTime>
@@ -3331,7 +3331,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2016 21:01:48</publishTime>
     </File>
     <File Include="DetailTinTuc.aspx">
-      <publishTime>08/12/2016 21:15:47</publishTime>
+      <publishTime>08/27/2016 17:48:35</publishTime>
     </File>
     <File Include="Entities/AlbumAnh1.cs">
       <publishTime>07/05/2016 19:00:00</publishTime>
@@ -3508,7 +3508,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/15/2016 17:07:47</publishTime>
     </File>
     <File Include="LichLV.aspx">
-      <publishTime>08/15/2016 01:33:56</publishTime>
+      <publishTime>08/15/2016 01:54:31</publishTime>
     </File>
     <File Include="LienHe.aspx">
       <publishTime>08/06/2016 13:02:35</publishTime>
@@ -3517,16 +3517,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2016 20:56:07</publishTime>
     </File>
     <File Include="TaiLieu.aspx">
-      <publishTime>08/15/2016 02:13:05</publishTime>
+      <publishTime>08/15/2016 02:14:51</publishTime>
     </File>
     <File Include="TinTuc.aspx">
-      <publishTime>06/28/2016 15:26:59</publishTime>
+      <publishTime>08/27/2016 17:50:58</publishTime>
     </File>
     <File Include="TLTin.aspx">
       <publishTime>08/15/2016 01:46:02</publishTime>
     </File>
     <File Include="TruyCap.txt">
-      <publishTime>08/15/2016 01:14:19</publishTime>
+      <publishTime>08/27/2016 17:56:09</publishTime>
     </File>
     <File Include="UCcontrol/LenDauTrang.ascx">
       <publishTime>05/19/2016 11:26:46</publishTime>
@@ -3559,10 +3559,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2016 22:23:13</publishTime>
     </File>
     <File Include="UCcontrol/TinDocNhieuNhat.ascx">
-      <publishTime>08/05/2016 21:13:20</publishTime>
+      <publishTime>08/28/2016 11:52:46</publishTime>
     </File>
     <File Include="UCcontrol/TinMoi.ascx">
-      <publishTime>08/05/2016 21:52:07</publishTime>
+      <publishTime>08/28/2016 11:53:58</publishTime>
     </File>
     <File Include="UCcontrol/TinTrangChu.ascx">
       <publishTime>08/15/2016 01:16:52</publishTime>

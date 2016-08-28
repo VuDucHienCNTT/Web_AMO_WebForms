@@ -37,7 +37,7 @@
     }
 
         .a a:hover {
-            color: #ff0000;
+            color: #2E2EFE;
         }
 
     .duongke {

@@ -23,10 +23,10 @@
     }
 
     .rpttindocnhieu {
-        width: 710px;
+        width: 720px;
         float: left;
         margin-right: 4px;
-        margin-left: 25px;
+        margin-left: 15px;
         text-align: left;
     }
 

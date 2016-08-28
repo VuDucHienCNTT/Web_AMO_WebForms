@@ -17,7 +17,7 @@
         }
 
         .lblTimKiemTL {
-            font-family: Tahoma;
+            font-family: 'Segoe UI';
             margin-left: 20px;
             color: #414955;
             font-size: 15px;
@@ -45,7 +45,7 @@
     </style>
     <div style="margin-bottom: 10px;">
         <div class="tieude">Công văn và tài liệu</div>
-        <img style="float:left;" src="Image/bg-title-h-right.png" />           
+        <img style="float: left;" src="Image/bg-title-h-right.png" />
     </div>
     <br />
     <asp:TextBox Style="height: 20px; width: 200px; margin-top: 10px;" Placeholder="Tìm kiếm tài liệu..." ID="txtSearch" title="Nhập tên tài liệu cần tìm" runat="server"></asp:TextBox>
